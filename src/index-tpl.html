@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="renderer" content="webkit">
+  <base href="<%=htmlWebpackPlugin.options.basePath%>">
+  <title>Document</title>
+  <% for(let o of htmlWebpackPlugin.options.styles){ %>
+	<link rel="stylesheet" href="./<%= o %>.css">
+	<% } %>
+</head>
+<body>
+  <div class="main-container ">
+		<div ui-view></div>
+  </div>
+  <script>
+    window.CONFIG_KEYNAME_USERKEY = "userKey";
+    window.CONFIG_DOMAIN = "";
+  </script>
+  <% for(var o of htmlWebpackPlugin.options.dlls ){ %>
+	<script src="./<%= o %>.js"></script>
+	<% } %>
+</body>
+</html>

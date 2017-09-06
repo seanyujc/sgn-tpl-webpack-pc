@@ -1,0 +1,1 @@
+{"version":3,"file":"constantsImpl.js","sourceRoot":"","sources":["../../src/impl/constantsImpl.ts"],"names":[],"mappings":";;AAGa,QAAA,SAAS,GAAiB,UAAC,MAAkB;IACxD,MAAM;SAEH,QAAQ,CAAoB,cAAc,EAAE;QAC3C,IAAI,EAAE,CAAC;QACP,MAAM,EAAE,CAAC;QACT,OAAO,EAAE,CAAC;QACV,OAAO,EAAE,CAAC;KACX,CAAC,CAAC;IACL,MAAM,CAAC,MAAM,CAAC;AAChB,CAAC,CAAC"}
